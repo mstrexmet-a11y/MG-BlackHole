@@ -1,6 +1,4 @@
 {
-  "key.mgblackhole.toggle": "Toggle Black Hole",
-  "key.categories.mgblackhole": "MG Black Hole",
-  "message.mgblackhole.enabled": "Black Hole: ON",
-  "message.mgblackhole.disabled": "Black Hole: OFF"
+  "item.mgblackhole.black_hole": "Black Hole",
+  "item.mgblackhole.black_hole.description": "Creates a temporary black hole that pulls in nearby entities and items."
 }
