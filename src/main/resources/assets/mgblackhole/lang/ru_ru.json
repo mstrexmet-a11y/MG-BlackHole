@@ -1,6 +1,4 @@
 {
-  "key.mgblackhole.toggle": "Включить/выключить чёрную дыру",
-  "key.categories.mgblackhole": "MG Black Hole",
-  "message.mgblackhole.enabled": "Чёрная дыра: ВКЛ",
-  "message.mgblackhole.disabled": "Чёрная дыра: ВЫКЛ"
+  "item.mgblackhole.black_hole": "Чёрная дыра",
+  "item.mgblackhole.black_hole.description": "Создаёт временную чёрную дыру, притягивающую ближайших существ и предметы."
 }
