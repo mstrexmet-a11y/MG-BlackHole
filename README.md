@@ -20,3 +20,6 @@ gradle build
 ```
 
 The mod JAR will be in `build/libs/`.
+
+
+Initial project structure committed. GitHub Actions builds the mod on pushes to `main`.
