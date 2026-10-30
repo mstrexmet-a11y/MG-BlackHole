@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="mgblackhole"
-version="${file.jarVersion}"
+version="${'$'}{file.jarVersion}"
 displayName="MG Black Hole"
 authors="MG"
 description='''A client-side visual black hole effect with a rotating particle ring. Cosmetic only; no entity attraction, damage, or block changes.'''
