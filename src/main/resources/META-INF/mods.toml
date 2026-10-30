@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mgblackhole"
+version="${file.jarVersion}"
+displayName="MG Black Hole"
+authors="MG"
+description='''A client-side visual black hole effect with a rotating particle ring. Cosmetic only; no entity attraction, damage, or block changes.'''
+
+[[dependencies.mgblackhole]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mgblackhole]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
