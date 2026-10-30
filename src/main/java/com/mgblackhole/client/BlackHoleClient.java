@@ -36,7 +36,8 @@ public final class BlackHoleClient {
             if (!enabled || mc.level == null || mc.player == null) return;
             ticks++;
             Vec3 camera = mc.gameRenderer.getMainCamera().getPosition();
-            Vec3 forward = mc.gameRenderer.getMainCamera().getLookVector();
+            org.joml.Vector3f look = mc.gameRenderer.getMainCamera().getLookVector();
+            Vec3 forward = new Vec3(look.x(), look.y(), look.z());
             Vec3 center = camera.add(forward.scale(7.0));
             double rotation = ticks * 0.075;
             for (int i = 0; i < 10; i++) {
